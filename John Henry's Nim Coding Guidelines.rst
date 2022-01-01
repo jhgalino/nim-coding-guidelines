@@ -5,6 +5,7 @@ John Henry's Nim Coding Guidelines
    link-time optimization, and C's memory allocator. The flags needed should be put inside the ``nim.cfg`` file.
 
    Flags::
+   
      -d:release --gc:orc -d:useMalloc -d:lto --passL:-static
 
 2. Variables must have explicit types. 
